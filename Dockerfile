@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:12-slim
 
 # add oracle instantclient binaries
 ADD ./oracle/linux/*.zip ./
